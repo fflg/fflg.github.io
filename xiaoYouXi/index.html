@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>捕鱼小游戏</title>
+		<link rel="stylesheet" href="css/index.css"/>
+		<script src="js/tween.js"></script>
+		<script src="js/index.js"></script>
+	</head>
+	<body>
+		<div class="wrap">
+			<div class="box">
+				<ul class="bj clearfix">
+					<li></li>
+					<li></li>
+				</ul>
+				<div id="room">
+					<div id="imgBox">
+						<img src="img/1.png" id="img"/> 
+					</div>
+				</div>
+				<div id="btn"></div>
+				<div id="atateBox">
+					<div id="atate"></div>
+					<div class="title">游戏说明</div>
+					<div class="content">
+						1.点击开始按钮，会有小鱼从屏幕上方往下掉</br>
+						2.在小鱼下落的过程中，看你的鼠标有多快，点击小鱼</br>
+						3.点中小鱼之后即为得到一分，如果小鱼落到了屏幕以下就失一分</br>
+						4.得到10分就胜利了哦，失去5分就失败了啊</br>
+						  注意：后面的小鱼会比前面的小鱼速度快啊
+					</div>
+				</div>
+			</div>
+			<div id="add">
+				<img src="img/chenggong.png"/>
+				<div>得分：</div>
+				<div id="score">0<span>分</span></div>
+			</div>
+			<div id="cut">
+				<img src="img/shibai.png"/>		
+				<div>失分：</div>
+				<div id="lose">0<span>分</span></div>
+			</div>
+			<div id="promptBj"></div>
+			<div id="wrap">
+				<div id="title">温馨提示！！！</div>
+				<div id="prompt"></div>
+				<div class="btnbox">
+	 				<div id="con">确定</div>
+	 				<div id="can">取消</div>
+	 			</div>
+			</div>
+		</div>
+	</body>
+</html>
