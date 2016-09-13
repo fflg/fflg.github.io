@@ -133,6 +133,9 @@ window.onload=function(){
 			wrap.style.left='-9999px';
 			wrap.style.top='-9999px';
 			promptBj.style.display="none";
+			add.style.transform="scaleX(1) scaleY(1)";
+			clearInterval(timer);
+			btnOnoff=true;
 			start();
 			move();
 		}
@@ -140,6 +143,7 @@ window.onload=function(){
 			wrap.style.left='-9999px';
 			wrap.style.top='-9999px';
 			promptBj.style.display="none";
+			add.style.transform="scaleX(1) scaleY(1)";
 			start();
 		}
 	}
